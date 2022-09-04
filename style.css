@@ -1,16 +1,33 @@
 body, html {
-    margin: 0;
+    margin: 10px;
     background-color: navajowhite;
+}
+
+a {
+    color: grey;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    margin: 10px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
 }
 
 .outer {
     border-radius: 10px;
     height: 100vh;
-    background: beige;
+    background: beige url("icons/computer-10.png") no-repeat right;
 }
 
 .inner {
     margin: 10px;
+}
+
+.line {
+    display: flex;
 }
 
 .header {
@@ -30,9 +47,4 @@ body, html {
     margin: 10px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-}
-
-a {
-    color: grey;
-
 }
