@@ -44,10 +44,12 @@ footer {
 .header_text {
     margin: 10px;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 5vh;
 }
 
 .content_text {
     margin: 10px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+    font-size: 3vh;
 }
