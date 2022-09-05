@@ -1,4 +1,7 @@
-body, html {
+body {
+    margin: 0;
+    display: block;
+    overflow: hidden;
     background-color: navajowhite;
 }
 
@@ -18,7 +21,7 @@ footer {
 .outer {
     margin: 10px;
     border-radius: 10px;
-    height: calc(100vh - 30px);
+    height: calc(100vh - 20px);
     background: beige url("icons/computer-10.png") no-repeat right;
 }
 
