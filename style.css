@@ -18,6 +18,31 @@ footer {
     display: flex;
 }
 
+ul {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+li {
+    flex: 1;
+    margin-right: 5vw;
+    margin-top: 2vw;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    background: rgba(100, 127, 127, 0.75);
+}
+
+a {
+    margin: 1vw;
+    text-decoration: none;
+    color: white;
+}
+
+
 .outer {
     margin: 10px;
     border-radius: 10px;
