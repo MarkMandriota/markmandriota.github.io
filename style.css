@@ -1,5 +1,4 @@
 body, html {
-    margin: 10px;
     background-color: navajowhite;
 }
 
@@ -17,8 +16,9 @@ footer {
 }
 
 .outer {
+    margin: 10px;
     border-radius: 10px;
-    height: 100vh;
+    height: calc(100vh - 30px);
     background: beige url("icons/computer-10.png") no-repeat right;
 }
 
