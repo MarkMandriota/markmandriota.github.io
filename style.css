@@ -45,9 +45,9 @@ a {
 
 
 .outer {
-    margin: 10px;
+    margin: 20px;
     border-radius: 20px;
-    height: calc(100vh - 20px);
+    height: calc(100vh - 40px);
     background: beige url("icons/computer-10.png") no-repeat right;
 }
 
