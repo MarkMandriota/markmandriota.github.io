@@ -31,7 +31,7 @@ li {
     margin-right: 5vw;
     margin-top: 2vw;
     display: flex;
-    border-radius: 5px;
+    border-radius: 10px;
     align-items: center;
     text-align: center;
     background: rgba(100, 127, 127, 0.75);
@@ -46,13 +46,13 @@ a {
 
 .outer {
     margin: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
     height: calc(100vh - 20px);
     background: beige url("icons/computer-10.png") no-repeat right;
 }
 
 .inner {
-    margin: 10px;
+    margin: 20px;
 }
 
 .line {
