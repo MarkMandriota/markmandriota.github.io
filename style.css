@@ -100,7 +100,7 @@ svg.icon:hover {
 
 @media screen and (orientation: portrait) {
     h1 {
-        font-size: 8vw;
+        font-size: 6vw;
     }
 
     svg.icon {
