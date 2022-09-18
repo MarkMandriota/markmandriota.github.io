@@ -1,0 +1,98 @@
+body {
+    position: fixed;
+    height: calc(100% - 20vw);
+    width: calc(100% - 20vw);
+    margin: 10vw;
+    padding: 0;
+    background-color: teal;
+    user-select: none;
+}
+
+div#visit-card {
+    box-shadow: 0 0 20px 0 whitesmoke;
+    transition: 0.5s;
+    position: absolute;
+    background-color: beige;
+    border-radius: 7vh;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+div#visit-card:hover {
+    transition: 0.125s;
+    box-shadow: 0 0 20px 0 black;
+    margin-left: 0.5%;
+    margin-top: 0.5%;
+    height: 99%;
+    width: 99%;
+}
+
+div#visit-card-cap {
+    margin-left: 8%;
+    margin-right: 8%;
+    border-bottom-left-radius: 7vh;
+    border-bottom-right-radius: 7vh;
+    background-color: grey;
+    text-align: center;
+}
+
+#visit-card-cap-text {
+    transition: 0.5s;
+    color: beige;
+}
+
+#visit-card-cap-text:hover {
+    transition: 0.125s;
+    color: teal;
+}
+
+div#visit-card-content {
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+div#visit-card-content-skill-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.visit-card-content-elem-cap-text {
+    color: grey;
+}
+
+a.visit-card-content-skill-elem {
+    transition: 0.5s;
+    background-color: grey;
+    border-radius: 10px;
+    margin: 8px;
+}
+
+a.visit-card-content-skill-elem:hover {
+    transition: 0.125s;
+    background-color: teal;
+}
+
+.visit-card-content-skill-elem-text {
+    color: beige;
+    margin: 12px;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+h1 {
+    font-size: 4vh;
+}
+
+svg {
+    transition: 0.5s;
+}
+
+svg:hover {
+    transition: 0.125s;
+    stroke: teal;
+}
