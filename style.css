@@ -102,6 +102,10 @@ svg.icon:hover {
         font-size: 6vw;
     }
 
+    div#visit-card-content-skill-list {
+        justify-content: center;
+    }
+
     svg.icon {
         height: 8vw;
         width: 8vw;
