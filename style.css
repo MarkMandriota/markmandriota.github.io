@@ -37,14 +37,14 @@ div#visit-card {
     width: 100%;
     border-radius: 5vw;
     background-color: beige;
-    box-shadow: 0 0 20px 0 whitesmoke;
+    box-shadow: 0 0 5px 2px whitesmoke;
 }
 
 div#visit-card:hover {
     transition: 0.125s;
     width: 99%;
     margin-left: 0.5%;
-    box-shadow: 0 0 20px 0 black;
+    box-shadow: 0 0 10px 0 black;
 }
 
 div#visit-card-cap {
@@ -67,14 +67,16 @@ div#visit-card-cap {
 }
 
 div#visit-card-content {
-    margin-left: 8%;
-    margin-right: 8%;
+    margin: 8%;
+    margin-top: 0.5vh;
 }
 
 div#visit-card-content-skill-list {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    max-height: 45vh;
+    overflow: scroll;
 }
 
 .visit-card-content-elem-cap-text {
