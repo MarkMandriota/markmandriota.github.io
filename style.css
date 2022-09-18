@@ -24,7 +24,6 @@ div#visit-card:hover {
     transition: 0.125s;
     width: 99%;
     margin-left: 0.5%;
-    margin-top: 0.5%;
     box-shadow: 0 0 20px 0 black;
 }
 
