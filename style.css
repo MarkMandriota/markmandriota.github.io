@@ -90,6 +90,7 @@ div#visit-card-content-skill-list {
 
 svg.icon {
     transition: 0.5s;
+    stroke: beige;
     height: 8vh;
     width: 8vh;
 }
