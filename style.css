@@ -13,7 +13,7 @@ div#visit-card {
     transition: 0.5s;
     position: absolute;
     background-color: beige;
-    border-radius: 7vh;
+    border-radius: 5vw;
     height: 100%;
     width: 100%;
     display: flex;
