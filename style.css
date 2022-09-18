@@ -9,6 +9,26 @@ body {
     user-select: none;
 }
 
+a {
+    text-decoration: none !important;
+}
+
+a.visit-card-content-skill-elem {
+    transition: 0.5s;
+    margin: 8px;
+    border-radius: 10px;
+    background-color: grey;
+}
+
+a.visit-card-content-skill-elem:hover {
+    transition: 0.125s;
+    background-color: teal;
+}
+
+h1 {
+    font-size: 4vh;
+}
+
 div#visit-card {
     transition: 0.5s;
     position: absolute;
@@ -61,29 +81,9 @@ div#visit-card-content-skill-list {
     color: grey;
 }
 
-a.visit-card-content-skill-elem {
-    transition: 0.5s;
-    margin: 8px;
-    border-radius: 10px;
-    background-color: grey;
-}
-
-a.visit-card-content-skill-elem:hover {
-    transition: 0.125s;
-    background-color: teal;
-}
-
 .visit-card-content-skill-elem-text {
     color: beige;
     margin: 12px;
-}
-
-a {
-    text-decoration: none !important;
-}
-
-h1 {
-    font-size: 4vh;
 }
 
 svg.icon {
