@@ -1,3 +1,7 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
 body {
     position: fixed;
     margin-top: 10vh;
@@ -13,18 +17,6 @@ a {
     text-decoration: none !important;
 }
 
-a.visit-card-content-skill-elem {
-    transition: 0.5s;
-    margin: 8px;
-    border-radius: 10px;
-    background-color: grey;
-}
-
-a.visit-card-content-skill-elem:hover {
-    transition: 0.125s;
-    background-color: teal;
-}
-
 h1 {
     font-size: 4vh;
 }
@@ -37,14 +29,14 @@ div#visit-card {
     width: 100%;
     border-radius: 5vw;
     background-color: beige;
-    box-shadow: 0 0 5px 2px whitesmoke;
+    box-shadow: 0 0 0.2vw whitesmoke;
 }
 
 div#visit-card:hover {
     transition: 0.125s;
     width: 99%;
     margin-left: 0.5%;
-    box-shadow: 0 0 10px 0 black;
+    box-shadow: 0 0 0.2vw black;
 }
 
 div#visit-card-cap {
@@ -54,6 +46,7 @@ div#visit-card-cap {
     border-bottom-right-radius: 7vh;
     background-color: grey;
     text-align: center;
+    box-shadow: 0 0 0.2vh 0.1vh black;
 }
 
 #visit-card-cap-text {
@@ -72,20 +65,36 @@ div#visit-card-content {
 }
 
 div#visit-card-content-skill-list {
+    border-radius: 3vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     max-height: 45vh;
-    overflow: scroll;
+    overflow-y: scroll;
+    justify-content: center;
+    box-shadow: 0 0 0.2vh 0.1vh black;
 }
 
-.visit-card-content-elem-cap-text {
-    color: grey;
+a.visit-card-content-skill-elem {
+    transition: 0.5s;
+    margin: 8px;
+    border-radius: 10px;
+    background-color: grey;
+    box-shadow: 0 0 0 0.05vw black;
+}
+
+a.visit-card-content-skill-elem:hover {
+    transition: 0.125s;
+    background-color: teal;
 }
 
 .visit-card-content-skill-elem-text {
     color: beige;
     margin: 12px;
+}
+
+.visit-card-content-elem-cap-text {
+    color: grey;
 }
 
 svg.icon {
@@ -103,10 +112,6 @@ svg.icon:hover {
 @media screen and (orientation: portrait) {
     h1 {
         font-size: 6vw;
-    }
-
-    div#visit-card-content-skill-list {
-        justify-content: center;
     }
 
     svg.icon {
