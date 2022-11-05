@@ -1,6 +1,18 @@
 # Mark Mandriota | ASCII-Art Works
 ![Avatar](https://avatars.githubusercontent.com/u/62650188)
 
+## Mark Mandriota's Avatar
+```
+0101    1010    1111
+0010    0100    1111
+111\ \  1011    0100
+0101 \ \0101    0000 
+0101 / /1010    1111
+001/ /  00.1____1.00
+1110    10`------`00
+1111    1011    0100
+```
+
 ## Mab Virtual Machine Logo
 ```
                                .  .  .
