@@ -9,7 +9,7 @@ body {
     margin-right: 10vw;
     padding: 0;
     width: calc(100% - 20vw);
-    background-color: teal;
+    background: teal;
     user-select: none;
 }
 
