@@ -1,0 +1,22 @@
+body {
+    background-color: #0F0F0F;
+}
+
+.layout {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+
+    border-radius: 10px;
+    text-align: center;
+    
+    background-color: transparent;
+    color: #9F9FFF;
+
+    animation: trans 6s infinite alternate linear;
+}
+
+@keyframes trans {
+    0% {color: #9FFF9F; box-shadow: 0 0 0 1px #9FFF9F9F;}
+    50% {color: #9F9FFF; box-shadow: 0 0 0 1px #FF9F9F9F;}
+    100% {color: #FF9F9F; box-shadow: 0 0 0 1px #9F9FFF9F;}
+}
