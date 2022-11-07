@@ -2,6 +2,11 @@
     display: none;
 }
 
+::selection {
+    color: initial;
+    background-color: #FFFFFF7F;
+}
+
 body {
     margin: 0;
 
