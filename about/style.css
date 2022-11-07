@@ -11,6 +11,14 @@ body {
     margin: 0;
 
     background-color: #0F0F0F;
+    height: 100vh;
+}
+
+center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 pre {
@@ -23,7 +31,7 @@ pre {
 
     border-radius: 10px;
     text-align: center;
-    font-size: 1.5vw;
+    font-size: 3vw;
     font-family: cursive;
     
     background-color: transparent;
@@ -49,6 +57,6 @@ a:hover {
 
 @media screen and (orientation: portrait) {
     pre {
-        font-size: 2vw;
+        font-size: 4vw;
     }
 }
