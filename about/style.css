@@ -57,6 +57,9 @@ a:hover {
 
 @media screen and (orientation: portrait) {
     pre {
-        font-size: 4vw;
+        width: 80vw;
+        font-size: 3vh;
+        white-space: pre-wrap;
+        word-wrap: break-word;
     }
 }
